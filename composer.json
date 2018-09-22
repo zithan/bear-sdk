@@ -1,0 +1,29 @@
+{
+    "name": "xjw/bear-sdk",
+    "description": "A bear logistics SDK.",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "zithan",
+            "email": "zithan@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3",
+        "mockery/mockery": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xjw\\BearSdk\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xjw\\BearSdk\\Tests\\": "tests"
+        }
+    }
+}
