@@ -1,7 +1,7 @@
 {
     "name": "zithan/bear-sdk",
     "description": "A bear logistics SDK.",
-    "license": "BSD",
+    "license": "MIT",
     "authors": [
         {
             "name": "zithan",
